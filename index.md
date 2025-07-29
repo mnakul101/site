@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a third year Ph.D. student in Machine Learning at H. Milton Stewart School of Industrial and Systems Engineering, Georgia Tech. I am fortunate to be advised by Prof. Ashwin Pananjady and Prof. Vidya Muthukumar. Before this, I completed by bachelor's and master's in Electrical Engineering from IIT Kanpur.
+I am a third year Ph.D. student in Machine Learning at [H. Milton Stewart School of Industrial and Systems Engineering][https://www.isye.gatech.edu/node/1], Georgia Tech. I am fortunate to be advised by [Prof. Ashwin Pananjady][https://sites.gatech.edu/ashwin-pananjady/] and [Prof. Vidya Muthukumar][https://vmuthukumar.ece.gatech.edu/]. Before this, I completed by bachelor's and master's in Electrical Engineering from IIT Kanpur.
 
 ## Research Interests
 
@@ -15,4 +15,3 @@ My research interests lie at the intersection of high-dimensional statistics, op
 
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/services.md %}
