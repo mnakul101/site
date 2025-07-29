@@ -14,4 +14,5 @@ My research interests lie at the intersection of high-dimensional statistics, op
   * Policy evaluation in reinforcement learning
 
 {% include_relative _includes/publications.md %}
+{% include_relative _includes/services.md %}
 
