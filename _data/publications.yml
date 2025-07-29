@@ -5,8 +5,7 @@ main:
     conference_short: COLT
     conference: Conference on Learning Theory <strong>(COLT)</strong>, 2025.
     pdf: https://arxiv.org/pdf/2503.12808
-    notes: Extended Abstarct
-
+  
   - title: "Variational Learning Algorithms for Channel Estimation in RIS-Assisted mmWave Systems"
     authors: Milind Nakul, Anupama Rajoriya, Rohit Budhiraja
     conference_short: TCOM
