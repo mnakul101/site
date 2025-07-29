@@ -8,7 +8,7 @@ I am a third year Ph.D. student in Machine Learning at <a href="https://www.isye
 
 ## Research Interests
 
-My research interests lie at the intersection of high-dimensional statistics, optimization, and reinforcement learning. I am particularly passionate about developing theoretically motivated algorithms to address fundamental challenges in these fields. Recently, my work has focused on creating techniques that enable effective learning from dependent data. I have focused on:
+My research interests lie at the intersection of "high-dimensional statistics", "optimization", and reinforcement learning. I am particularly passionate about developing theoretically motivated algorithms to address fundamental challenges in these fields. Recently, my work has focused on creating techniques that enable effective learning from dependent data. I have focused on:
   * Distribution estimation from dependent samples
   * Stochastic optimization for statistical and machine learning
   * Policy evaluation in reinforcement learning
