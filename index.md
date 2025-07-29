@@ -15,7 +15,7 @@ My research interests lie at the intersection of high-dimensional statistics, op
 
 {% include_relative _includes/publications.md %}
 
-## Research Interests
+## Awards
 
   * John Morris Fellowship by H. Milton Stewart School of Industrial & Systems Engineering
   * Dr. Prateek Mishra Memorial Gold Medal by IIT Kanpur
