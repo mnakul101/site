@@ -1,5 +1,7 @@
 ## Talks and Presentations
 
+* INFORMS Annual Meeting, Atlanta, Georgia, Oct 2025
+  * Title: Multiscale replay: A robust algorithm for stochastic variational inequalities with a Markovian buffer (<a href="https://drive.google.com/file/d/17CfvEvgbBKF1JpfnHrzQWAD5vvvim5g7/view?usp=sharing">Slides</a>)
 * Conference on Learning Theory (COLT), Lyon, France, Jul 2025
   * Title: Estimating stationary mass, frequency by frequency (<a href="https://drive.google.com/file/d/1d5UBHLdehR_Vy9lJXXOyWo-opSaVnbry/view?usp=sharing">Slides</a>)
 * International Indian Statistical Association (IISA) Conference, Linclon, Nebraska, Jun 2025
