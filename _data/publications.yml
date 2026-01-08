@@ -2,6 +2,7 @@ main:
 
   - title: "Multiscale replay: A robust algorithm for stochastic variational inequalities with a Markovian buffer"
     authors: Milind Nakul, Tianjiao Li, Ashwin Pananjady
+    conference: arXiv:2601.01502
     pdf: https://arxiv.org/abs/2601.01502
   - title: "Estimating stationary mass, frequency by frequency"
     authors: Milind Nakul, Vidya Muthukumar, Ashwin Pananjady
