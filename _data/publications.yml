@@ -3,13 +3,11 @@ main:
   - title: "Multiscale replay: A robust algorithm for stochastic variational inequalities with a Markovian buffer"
     authors: Milind Nakul, Tianjiao Li, Ashwin Pananjady
     pdf: https://arxiv.org/abs/2601.01502
-
   - title: "Estimating stationary mass, frequency by frequency"
     authors: Milind Nakul, Vidya Muthukumar, Ashwin Pananjady
     conference_short: COLT
     conference: Conference on Learning Theory <strong>(COLT)</strong>, 2025.
     pdf: https://arxiv.org/abs/2503.12808
-  
   - title: "Variational Learning Algorithms for Channel Estimation in RIS-Assisted mmWave Systems"
     authors: Milind Nakul, Anupama Rajoriya, Rohit Budhiraja
     conference_short: TCOM
