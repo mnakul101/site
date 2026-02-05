@@ -13,3 +13,4 @@
 
 * Conference Reviewing: ICML 2026, ALT 2026
 * Joural Reviewing: Annals of Statistics
+* Webmaster: Stochastic Networks, Applied Probability, and Performance (SNAPP) Seminar
