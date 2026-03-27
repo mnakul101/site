@@ -9,7 +9,7 @@ main:
   - title: "Estimating stationary mass, frequency by frequency"
     authors: Milind Nakul, Vidya Muthukumar, Ashwin Pananjady
     #conference: Conference on Learning Theory <strong>(COLT)</strong>, 2025.
-    conference: <strong>COLT 2025, Under review, SIAM Journal on Mathematics of Data Science
+    conference: COLT 2025. Under review, SIAM Journal on Mathematics of Data Science
     pdf: https://arxiv.org/abs/2503.12808
     
   - title: "Variational Learning Algorithms for Channel Estimation in RIS-Assisted mmWave Systems"
