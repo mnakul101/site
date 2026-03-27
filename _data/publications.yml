@@ -5,12 +5,14 @@ main:
     conference: arXiv:2601.01502
     pdf: https://arxiv.org/abs/2601.01502
     conference: Under review, Mathematics of Operations Research
+    
   - title: "Estimating stationary mass, frequency by frequency"
     authors: Milind Nakul, Vidya Muthukumar, Ashwin Pananjady
     conference_short: COLT
     conference: Conference on Learning Theory <strong>(COLT)</strong>, 2025.
     pdf: https://arxiv.org/abs/2503.12808
     conference: Under review, SIAM Journal on Mathematics of Data Science
+    
   - title: "Variational Learning Algorithms for Channel Estimation in RIS-Assisted mmWave Systems"
     authors: Milind Nakul, Anupama Rajoriya, Rohit Budhiraja
     conference_short: TCOM
