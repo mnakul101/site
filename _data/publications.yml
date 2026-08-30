@@ -1,5 +1,11 @@
 main:
 
+  - title: "Next token functional estimation"
+    authors: Milind Nakul, Vidya Muthukumar, Ashwin Pananjady
+    #conference: Conference on Learning Theory <strong>(COLT)</strong>, 2025.
+    conference: In preparation.
+    #pdf: https://arxiv.org/abs/2503.12808
+
   - title: "Multiscale replay: A robust algorithm for stochastic variational inequalities with a Markovian buffer"
     authors: Milind Nakul, Tianjiao Li, Ashwin Pananjady
     #conference: arXiv:2601.01502
