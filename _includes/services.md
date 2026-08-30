@@ -13,6 +13,6 @@
  
 ## Services
 
-* Conference Reviewing: ICML 2026, ALT 2026, COLT 2026
+* Conference Reviewing: ALT 2027, NeurIPS 2026, ICML 2026, ALT 2026, COLT 2026
 * Joural Reviewing: Annals of Statistics
 * Webmaster: Stochastic Networks, Applied Probability, and Performance (SNAPP) Seminar
