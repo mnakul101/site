@@ -1,5 +1,9 @@
 # Publications, newest first.
 #
+# ANONYMITY: never name the venue a paper is under review at - write plain
+# "Under review." Naming it can compromise double-blind review. Only name a
+# venue once the paper is accepted or published.
+#
 # Fields:
 #   title    (required)
 #   authors  (required) - wrap your own name in <strong>...</strong>
@@ -18,7 +22,7 @@ main:
 
   - title: "Multiscale Replay: A Robust Algorithm for Stochastic Variational Inequalities with a Markovian Buffer"
     authors: <strong>Milind Nakul</strong>, Tianjiao Li, Ashwin Pananjady
-    venue: "Under review at <em>Mathematics of Operations Research</em>."
+    venue: "Under review."
     year: 2026
     links:
       - name: arXiv
@@ -28,7 +32,7 @@ main:
 
   - title: "Estimating Stationary Mass, Frequency by Frequency"
     authors: <strong>Milind Nakul</strong>, Vidya Muthukumar, Ashwin Pananjady
-    venue: "Conference on Learning Theory <strong>(COLT)</strong>. Under review at <em>SIAM Journal on Mathematics of Data Science</em>."
+    venue: "Conference on Learning Theory <strong>(COLT)</strong>. Extended version under review."
     year: 2025
     links:
       - name: arXiv

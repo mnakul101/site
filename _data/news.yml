@@ -1,4 +1,7 @@
 # News items shown in the hero, newest first.
+#
+# ANONYMITY: never name the venue a paper is under review at - write plain
+# "under review." Only name a venue once the paper is accepted or published.
 # Keep this list short - 4 or 5 entries reads best. Delete the oldest as you add.
 #
 # Fields: date (shown in brackets), text (HTML allowed)
@@ -18,7 +21,7 @@
     New preprint:
     <strong><a href="https://arxiv.org/abs/2601.01502">Multiscale Replay: A Robust Algorithm
     for Stochastic Variational Inequalities with a Markovian Buffer</a></strong>,
-    under review at <em>Mathematics of Operations Research</em>.
+    currently under review.
 
 - date: "2025-07"
   text: >-
