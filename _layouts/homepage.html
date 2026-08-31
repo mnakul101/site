@@ -4,6 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+
+    <!-- Apply the saved theme before first paint, or the page flashes the
+         wrong palette on load. Must stay inline and stay here, above the CSS. -->
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('theme');
+          if (t === 'dark' || t === 'light') {
+            document.documentElement.setAttribute('data-theme', t);
+          }
+        } catch (e) { /* private mode / storage blocked - fall back to the OS setting */ }
+      })();
+    </script>
 
     <title>{{ site.title }} | {{ site.affiliation }}</title>
     <meta name="description" content="{{ site.description }}">
@@ -34,9 +48,15 @@
           <li><a href="#talks">Talks</a></li>
           <li><a href="#teaching">Teaching</a></li>
         </ul>
-        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
-          <span></span><span></span><span></span>
-        </button>
+        <div class="nav-actions">
+          <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+            <i class="fas fa-sun" aria-hidden="true"></i>
+          </button>
+          <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
       </div>
     </nav>
 
