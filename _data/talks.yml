@@ -6,6 +6,9 @@
   title: "Multiscale Replay: A Robust Algorithm for Stochastic Variational Inequalities with a Markovian Buffer"
   venue: "INFORMS Optimization Society Conference"
   location: "Atlanta, GA"
+  links:
+    - name: Slides
+      url: https://drive.google.com/file/d/1D63kXBPmB6ePHP9OaVs5Q7xRviZHjKxW/view?usp=sharing
 
 - date: "Oct 2025"
   kind: Talk
@@ -21,6 +24,8 @@
   links:
     - name: Slides
       url: assets/files/COLTPresentation.pdf
+    - name: Video
+      url: https://youtu.be/kvJ2unCwtHA?list=PLCHBdlWR7RYx9VNiWhgSboOAFfiYubw8u
 
 - date: "Jun 2025"
   kind: Poster

@@ -28,6 +28,8 @@ main:
       - name: arXiv
         url: https://arxiv.org/abs/2601.01502
       - name: Slides
+        url: https://drive.google.com/file/d/1D63kXBPmB6ePHP9OaVs5Q7xRviZHjKxW/view?usp=sharing
+      - name: Poster
         url: assets/files/GSD_Poster.pdf
 
   - title: "Estimating Stationary Mass, Frequency by Frequency"
