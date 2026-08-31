@@ -11,11 +11,6 @@
 
 main:
 
-  - title: "Spend Compute Where It Matters: Input-Aware Sparsity Routing for Large Models"
-    authors: <strong>Milind Nakul</strong>, Kadierdan Kaheman, Jason Cloud
-    venue: "Patent pending, United States Patent and Trademark Office. Invention disclosure filed with Dolby Laboratories."
-    year: 2026
-
   - title: "Next Token Functional Estimation"
     authors: <strong>Milind Nakul</strong>, Vidya Muthukumar, Ashwin Pananjady
     venue: "In preparation."

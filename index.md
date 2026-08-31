@@ -12,4 +12,4 @@ My research interests lie at the intersection of <em>high-dimensional statistics
 
 <hr class="bio-separator" />
 
-In Summer 2026 I was a <strong>PhD Research Intern</strong> at <a href="https://www.dolby.com/">Dolby Laboratories</a> in San Francisco, where I built an input-aware routing framework that trains a lightweight router to select a per-input sparsity level. The approach generalizes across vision and language, cutting active-model memory by 33&ndash;43% on Qwen2.5-7B while matching dense ResNet-152/ImageNet top-1 accuracy at 31% average sparsity. A patent application on this work is pending with the USPTO.
+In Summer 2026 I was a <strong>PhD Research Intern</strong> at <a href="https://www.dolby.com/">Dolby Laboratories</a>, where I worked on pruning and compression of large language models.
