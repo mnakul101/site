@@ -2,7 +2,7 @@
 layout: homepage
 ---
 
-I am a fourth-year Ph.D. student in Machine Learning at the <a href="https://www.isye.gatech.edu/">H. Milton Stewart School of Industrial and Systems Engineering</a>, Georgia Tech, where I am fortunate to be advised by <a href="https://sites.gatech.edu/ashwin-pananjady/">Prof. Ashwin Pananjady</a> and <a href="https://vmuthukumar.ece.gatech.edu/">Prof. Vidya Muthukumar</a>. Before this, I completed my B.Tech. and M.Tech. in Electrical Engineering at <a href="https://iitk.ac.in/">IIT Kanpur</a>.
+I am a fourth-year Ph.D. student in Machine Learning at the <a href="https://www.isye.gatech.edu/">H. Milton Stewart School of Industrial and Systems Engineering</a>, Georgia Tech, where I am fortunate to be advised by <a href="https://sites.gatech.edu/ashwin-pananjady/">Prof. Ashwin Pananjady</a> and <a href="https://vmuthukumar.ece.gatech.edu/">Prof. Vidya Muthukumar</a>. Before this, I completed my B.Tech. and M.Tech. in Electrical Engineering at <a href="https://iitk.ac.in/">IIT Kanpur</a>, where I wrote my <a href="{{ site.thesis_link | relative_url }}">master's thesis</a> on momentum-based variance reduced algorithms for imitation learning, advised by Prof. Ketan Rajawat.
 
 My research interests lie at the intersection of <em>high-dimensional statistics</em>, <em>optimization</em>, and <em>reinforcement learning</em>. I am particularly passionate about developing theoretically motivated algorithms to address fundamental challenges in these fields. Recently, my work has focused on techniques that enable effective learning from dependent data:
 
