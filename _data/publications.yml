@@ -1,25 +1,54 @@
+# Publications, newest first.
+#
+# Fields:
+#   title    (required)
+#   authors  (required) - wrap your own name in <strong>...</strong>
+#   venue    (required) - where it appeared / its current status
+#   year     (optional) - shown in parentheses after the title
+#   note     (optional) - highlighted in red, e.g. "Best Paper Award"
+#   image    (optional) - path to a teaser image, e.g. assets/img/teaser.png
+#   links    (optional) - list of { name, url } buttons
+
 main:
 
-  - title: "Next token functional estimation"
-    authors: Milind Nakul, Vidya Muthukumar, Ashwin Pananjady
-    #conference: Conference on Learning Theory <strong>(COLT)</strong>, 2025.
-    conference: In preparation.
-    #pdf: https://arxiv.org/abs/2503.12808
+  - title: "Spend Compute Where It Matters: Input-Aware Sparsity Routing for Large Models"
+    authors: <strong>Milind Nakul</strong>, Kadierdan Kaheman, Jason Cloud
+    venue: "Patent pending, United States Patent and Trademark Office. Invention disclosure filed with Dolby Laboratories."
+    year: 2026
 
-  - title: "Multiscale replay: A robust algorithm for stochastic variational inequalities with a Markovian buffer"
-    authors: Milind Nakul, Tianjiao Li, Ashwin Pananjady
-    #conference: arXiv:2601.01502
-    conference: Under review.
-    pdf: https://arxiv.org/abs/2601.01502
-    
-  - title: "Estimating stationary mass, frequency by frequency"
-    authors: Milind Nakul, Vidya Muthukumar, Ashwin Pananjady
-    #conference: Conference on Learning Theory <strong>(COLT)</strong>, 2025.
-    conference: COLT 2025 (Extended Abstract). Under review.
-    pdf: https://arxiv.org/abs/2503.12808
-    
+  - title: "Next Token Functional Estimation"
+    authors: <strong>Milind Nakul</strong>, Vidya Muthukumar, Ashwin Pananjady
+    venue: "In preparation."
+    year: 2026
+
+  - title: "Multiscale Replay: A Robust Algorithm for Stochastic Variational Inequalities with a Markovian Buffer"
+    authors: <strong>Milind Nakul</strong>, Tianjiao Li, Ashwin Pananjady
+    venue: "Under review at <em>Mathematics of Operations Research</em>."
+    year: 2026
+    links:
+      - name: arXiv
+        url: https://arxiv.org/abs/2601.01502
+      - name: Slides
+        url: assets/files/GSD_Poster.pdf
+
+  - title: "Estimating Stationary Mass, Frequency by Frequency"
+    authors: <strong>Milind Nakul</strong>, Vidya Muthukumar, Ashwin Pananjady
+    venue: "Conference on Learning Theory <strong>(COLT)</strong>. Under review at <em>SIAM Journal on Mathematics of Data Science</em>."
+    year: 2025
+    links:
+      - name: arXiv
+        url: https://arxiv.org/abs/2503.12808
+      - name: Slides
+        url: assets/files/COLTPresentation.pdf
+      - name: Poster
+        url: assets/files/IISA_Poster.pdf
+
   - title: "Variational Learning Algorithms for Channel Estimation in RIS-Assisted mmWave Systems"
-    authors: Milind Nakul, Anupama Rajoriya, Rohit Budhiraja
-    conference_short: TCOM
-    conference: IEEE Transactions on Communications
-    pdf: https://ieeexplore.ieee.org/abstract/document/10286089/
+    authors: <strong>Milind Nakul</strong>, Anupama Rajoriya, Rohit Budhiraja
+    venue: "<em>IEEE Transactions on Communications</em>, vol. 72, pp. 222&ndash;238."
+    year: 2023
+    links:
+      - name: Paper
+        url: https://ieeexplore.ieee.org/abstract/document/10286089/
+      - name: arXiv
+        url: https://arxiv.org/abs/2211.14495

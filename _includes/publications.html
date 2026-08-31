@@ -1,0 +1,49 @@
+<section id="publications">
+  <div class="section-container reveal">
+    <h2 class="section-title">Publications</h2>
+
+    {% if site.google_scholar %}
+    <p class="pub-note">
+      A full list is also on <a href="{{ site.google_scholar }}" target="_blank" rel="noopener">Google Scholar</a>.
+    </p>
+    {% endif %}
+
+    {% for pub in site.data.publications.main %}
+    <div class="pub-item">
+      <div class="pub-content-wrapper">
+        {% if pub.image %}
+        <div class="pub-thumbnail">
+          <img src="{{ pub.image | relative_url }}" alt="Teaser figure for {{ pub.title | escape }}">
+        </div>
+        {% endif %}
+
+        <div class="pub-content">
+          <div class="pub-title">
+            {% if pub.links and pub.links.first %}
+            <a href="{{ pub.links.first.url | relative_url }}" target="_blank" rel="noopener">{{ pub.title }}</a>
+            {% else %}
+            {{ pub.title }}
+            {% endif %}
+            {% if pub.year %}<span class="pub-year">({{ pub.year }})</span>{% endif %}
+          </div>
+
+          <div class="pub-authors">{{ pub.authors }}</div>
+          <div class="pub-venue">{{ pub.venue }}</div>
+
+          {% if pub.note %}
+          <span class="pub-note-inline">{{ pub.note }}</span>
+          {% endif %}
+
+          {% if pub.links %}
+          <div class="pub-links">
+            {% for link in pub.links %}
+            <a class="pub-link" href="{{ link.url | relative_url }}" target="_blank" rel="noopener">{{ link.name }}</a>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

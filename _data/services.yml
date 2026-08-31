@@ -1,0 +1,20 @@
+# Academic service, grouped by category.
+# Each category has a heading and a list of items with { label, detail, comment? }
+
+- heading: "Conference Reviewing"
+  items:
+    - label: "2026&ndash;27"
+      detail: "ALT 2027, NeurIPS 2026, ICML 2026, ALT 2026, COLT 2026"
+
+- heading: "Journal Reviewing"
+  items:
+    - label: "Ongoing"
+      detail: "<em>Annals of Statistics</em>"
+
+- heading: "University Service"
+  items:
+    - label: "Ongoing"
+      detail: "Webmaster, Stochastic Networks, Applied Probability, and Performance (SNAPP) Seminar"
+    - label: "2019&ndash;20"
+      detail: "Secretary, Electronics Club, IIT Kanpur"
+      comment: "Organised lectures and workshops on machine learning for electronics, and mentored participants in intra-IITK competitions and projects."

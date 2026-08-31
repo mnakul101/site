@@ -1,0 +1,41 @@
+# Talks and presentations, newest first.
+# Fields: date, title, venue, location, kind (Talk / Poster), links (optional list of {name,url})
+
+- date: "Mar 2026"
+  kind: Talk
+  title: "Multiscale Replay: A Robust Algorithm for Stochastic Variational Inequalities with a Markovian Buffer"
+  venue: "INFORMS Optimization Society Conference"
+  location: "Atlanta, GA"
+
+- date: "Oct 2025"
+  kind: Talk
+  title: "Multiscale Replay: A Robust Algorithm for Stochastic Variational Inequalities with a Markovian Buffer"
+  venue: "INFORMS Annual Meeting"
+  location: "Atlanta, GA"
+
+- date: "Jul 2025"
+  kind: Talk
+  title: "Estimating Stationary Mass, Frequency by Frequency"
+  venue: "Conference on Learning Theory (COLT)"
+  location: "Lyon, France"
+  links:
+    - name: Slides
+      url: assets/files/COLTPresentation.pdf
+
+- date: "Jun 2025"
+  kind: Poster
+  title: "Estimating Stationary Mass, Frequency by Frequency"
+  venue: "International Indian Statistical Association (IISA) Conference"
+  location: "Lincoln, NE"
+  links:
+    - name: Poster
+      url: assets/files/IISA_Poster.pdf
+
+- date: "Oct 2024"
+  kind: Poster
+  title: "Multiscale Replay: A Robust Algorithm for Stochastic Variational Inequalities with a Markovian Buffer"
+  venue: "Georgia Statistics Day"
+  location: "Atlanta, GA"
+  links:
+    - name: Poster
+      url: assets/files/GSD_Poster.pdf

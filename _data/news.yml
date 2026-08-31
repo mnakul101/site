@@ -1,0 +1,27 @@
+# News items shown in the hero, newest first.
+# Keep this list short - 4 or 5 entries reads best. Delete the oldest as you add.
+#
+# Fields: date (shown in brackets), text (HTML allowed)
+
+- date: "2026-08"
+  text: >-
+    Wrapped up my summer as a <strong>PhD Research Intern</strong> at
+    <a href="https://www.dolby.com/">Dolby Laboratories</a> in San Francisco.
+
+- date: "2026-03"
+  text: >-
+    Presented <strong>Multiscale Replay</strong> at the
+    <strong>INFORMS Optimization Society Conference</strong> in Atlanta.
+
+- date: "2026-01"
+  text: >-
+    New preprint:
+    <strong><a href="https://arxiv.org/abs/2601.01502">Multiscale Replay: A Robust Algorithm
+    for Stochastic Variational Inequalities with a Markovian Buffer</a></strong>,
+    under review at <em>Mathematics of Operations Research</em>.
+
+- date: "2025-07"
+  text: >-
+    <strong><a href="https://arxiv.org/abs/2503.12808">Estimating Stationary Mass, Frequency
+    by Frequency</a></strong> appeared at the <strong>Conference on Learning Theory (COLT)</strong>
+    in Lyon, France.

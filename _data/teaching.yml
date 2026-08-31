@@ -1,0 +1,23 @@
+# Teaching, grouped by institution.
+# Each group: school, location, roles -> [{ title, items: [{ date, course, comment? }] }]
+
+- school: "Georgia Institute of Technology"
+  location: "Atlanta, GA, USA"
+  roles:
+    - title: "Tutor"
+      items:
+        - date: "Aug 2023 &ndash; Apr 2024"
+          course: "ISyE 3133 &mdash; Engineering Optimization"
+          comment: "Conducted weekly tutorial sessions and mentored students across topics in optimization."
+
+- school: "Indian Institute of Technology Kanpur"
+  location: "Kanpur, India"
+  roles:
+    - title: "Teaching Assistant"
+      items:
+        - date: "Jan 2023 &ndash; Apr 2023"
+          course: "EE 675 &mdash; Introduction to Reinforcement Learning"
+          comment: "Conducted weekly tutorial sessions and mentored students on projects applying reinforcement learning."
+        - date: "Aug 2022 &ndash; Apr 2023"
+          course: "EE 381 &mdash; Electrical Engineering Laboratory"
+          comment: "Ran lab and tutorial sessions, and planned course logistics, assessment, and evaluation for 150+ students."

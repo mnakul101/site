@@ -1,56 +1,59 @@
-# Basic Information 
+# Basic Information
 title: Milind Nakul
-position: Ph.D. Student
+position: Ph.D. Student, Machine Learning
 affiliation: ISyE, Georgia Tech
+affiliation_full: H. Milton Stewart School of Industrial and Systems Engineering
+affiliation_link: https://www.isye.gatech.edu/
+university: Georgia Institute of Technology
+location: Atlanta, GA, USA
 email: mnakul3 (at) gatech.edu
 
+# Site URL
+# This is a GitHub Pages *project* site, so it is served from a /site/ subpath.
+# Leave `baseurl` alone unless you move the repo or add a custom domain, or
+# every asset link on the page will break.
+url: https://mnakul101.github.io
+baseurl: /site
+
 # Search Engine Optimization (SEO)
-# The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: minimal light
-description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://minimal-light-theme.yliu.me/
+keywords: Milind Nakul, machine learning, high-dimensional statistics, optimization, reinforcement learning, Georgia Tech, ISyE, PhD
+description: Milind Nakul is a Ph.D. student in Machine Learning at Georgia Tech (ISyE), working on high-dimensional statistics, optimization, and reinforcement learning.
+canonical: https://mnakul101.github.io/site/
 
-# Links 
-# If you don't need one of them, you may delete the corresponding line.
+# Links
+# If you don't need one of them, delete the corresponding line.
 google_scholar: https://scholar.google.com/citations?user=6ry-yvgAAAAJ&hl=en
-cv_link: assets/files/curriculum_vitae.pdf
-colt_slides_link:  assets/files/COLTPresentation.pdf
-IISA_poster_link: assets/files/IISA_Poster.pdf
-GSD_Poster_link: assets/files/GSD_Poster.pdf
+github_link: https://github.com/mnakul101
 linkedin: https://www.linkedin.com/in/milind-nakul-aa93b4185
+cv_link: assets/files/curriculum_vitae.pdf
+thesis_link: assets/files/Thesis.pdf
 
-# Images (e.g., your profile picture and your website's favicon) 
-# "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/avatar.png
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
+# Images (profile picture and favicons)
+# "favicon" and "favicon_dark" are used for the light and dark modes.
+avatar: assets/img/avatar.png
+favicon: assets/img/favicon.png
+favicon_dark: assets/img/favicon-dark.png
 
 # Footnote
-# You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
 enable_footnote: false
-
-# Auto Dark Mode
-# You may use the option to disable the automatic dark theme
-auto_dark_mode: true
-
-# Font
-# You can use this option to choose between Serif or Sans Serif fonts.
-font: "Serif" # or "Sans Serif"
-
-
-
-# Use this project as a remote theme for GitHub Pages
-# See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
-remote_theme: yaoyao-liu/minimal-light
 
 # The following files will be removed from the generated website.
 exclude:
   - Gemfile
   - Gemfile.lock
+  - LICENSE
   - README.md
+  - README_de.md
   - README_zh_Hans.md
   - README_zh_Hant.md
-  - README_de.md
-  - LICENSE
   - minimal-light.gemspec
   - html_source_file/
+  # Superseded by assets/css/main.css - kept on disk for reference only.
+  - _sass/
+  - assets/css/style.scss
+  - assets/css/style-no-dark-mode.scss
+  - assets/css/publications.css
+  - assets/css/publications-no-dark-mode.css
+  - assets/css/font.css
+  - assets/css/font_sans_serif.css
+  - assets/js/scale.fix.js

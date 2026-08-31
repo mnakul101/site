@@ -2,24 +2,14 @@
 layout: homepage
 ---
 
-## About Me
+I am a fourth-year Ph.D. student in Machine Learning at the <a href="https://www.isye.gatech.edu/">H. Milton Stewart School of Industrial and Systems Engineering</a>, Georgia Tech, where I am fortunate to be advised by <a href="https://sites.gatech.edu/ashwin-pananjady/">Prof. Ashwin Pananjady</a> and <a href="https://vmuthukumar.ece.gatech.edu/">Prof. Vidya Muthukumar</a>. Before this, I completed my B.Tech. and M.Tech. in Electrical Engineering at <a href="https://iitk.ac.in/">IIT Kanpur</a>.
 
-I am a third year Ph.D. student in Machine Learning at <a href="https://www.isye.gatech.edu/node/1">H. Milton Stewart School of Industrial and Systems Engineering</a>, Georgia Tech. I am fortunate to be advised by <a href="https://sites.gatech.edu/ashwin-pananjady/">Prof. Ashwin Pananjady</a> and <a href="https://vmuthukumar.ece.gatech.edu/">Prof. Vidya Muthukumar</a>. Before this, I completed my bachelor's and master's in Electrical Engineering from IIT Kanpur.
+My research interests lie at the intersection of <em>high-dimensional statistics</em>, <em>optimization</em>, and <em>reinforcement learning</em>. I am particularly passionate about developing theoretically motivated algorithms to address fundamental challenges in these fields. Recently, my work has focused on techniques that enable effective learning from dependent data:
 
-## Research Interests
-
-My research interests lie at the intersection of <em>high-dimensional statistics</em>, <em>optimization</em>, and <em>reinforcement learning</em>. I am particularly passionate about developing theoretically motivated algorithms to address fundamental challenges in these fields. Recently, my work has focused on creating techniques that enable effective learning from dependent data. I have focused on:
   * Distribution estimation from dependent samples
   * Stochastic optimization for statistical and machine learning
   * Policy evaluation in reinforcement learning
 
-{% include_relative _includes/publications.md %}
+<hr class="bio-separator" />
 
-{% include_relative _includes/services.md %}
-
-
-## Awards
-
-  * John Morris Fellowship by H. Milton Stewart School of Industrial & Systems Engineering
-  * Dr. Prateek Mishra Memorial Gold Medal by IIT Kanpur
-  * Academic Excellence Award (equivalent to Dean's List) by IIT Kanpur
+In Summer 2026 I was a <strong>PhD Research Intern</strong> at <a href="https://www.dolby.com/">Dolby Laboratories</a> in San Francisco, where I built an input-aware routing framework that trains a lightweight router to select a per-input sparsity level. The approach generalizes across vision and language, cutting active-model memory by 33&ndash;43% on Qwen2.5-7B while matching dense ResNet-152/ImageNet top-1 accuracy at 31% average sparsity. A patent application on this work is pending with the USPTO.

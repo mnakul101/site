@@ -1,0 +1,24 @@
+<section id="talks">
+  <div class="section-container reveal">
+    <h2 class="section-title">Talks and Presentations</h2>
+
+    <div class="table-scroll">
+      <table class="talks-table">
+        {% for talk in site.data.talks %}
+        <tr class="talk-row">
+          <td class="talk-date">{{ talk.date }}</td>
+          <td class="talk-content">
+            <span class="talk-title">&ldquo;{{ talk.title }}&rdquo;</span>{% if talk.kind %}<span class="talk-kind">{{ talk.kind }}</span>{% endif %}<br>
+            {{ talk.venue }}{% if talk.location %}, {{ talk.location }}{% endif %}
+            {% if talk.links %}
+            {% for link in talk.links %}
+            &middot; <a href="{{ link.url | relative_url }}" target="_blank" rel="noopener">{{ link.name }}</a>
+            {% endfor %}
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+  </div>
+</section>

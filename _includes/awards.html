@@ -1,0 +1,24 @@
+<section id="awards">
+  <div class="section-container reveal">
+    <h2 class="section-title">Awards</h2>
+
+    {% for group in site.data.awards %}
+    <div class="award-year-group">
+      <p class="award-year-header">{{ group.year }}</p>
+      <ul class="awards-list">
+        {% for award in group.items %}
+        <li class="award-item-wrapper">
+          <div class="award-item">
+            <i class="fas fa-medal award-icon" aria-hidden="true"></i>
+            <span class="award-title">{{ award.title }}</span>
+          </div>
+          {% if award.detail %}
+          <div class="award-comment-wrapper">{{ award.detail }}</div>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</section>

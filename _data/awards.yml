@@ -1,0 +1,17 @@
+# Awards, grouped by year (newest first).
+# Fields per item: title (HTML allowed), detail (optional, shown beneath)
+
+- year: "2023&ndash;24"
+  items:
+    - title: "<strong>John Morris Fellowship</strong>"
+      detail: "Awarded by the H. Milton Stewart School of Industrial &amp; Systems Engineering, Georgia Tech."
+
+- year: "2023"
+  items:
+    - title: "<strong>Dr. Prateek Mishra Memorial Gold Medal</strong>"
+      detail: "Awarded by IIT Kanpur."
+
+- year: "2018&ndash;22"
+  items:
+    - title: "<strong>Academic Excellence Award</strong> <em>(equivalent to Dean's List)</em>"
+      detail: "Awarded by IIT Kanpur for exceptional academic performance."

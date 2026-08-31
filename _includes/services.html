@@ -1,0 +1,29 @@
+<section id="services">
+  <div class="section-container reveal">
+    <h2 class="section-title">Academic Service</h2>
+
+    {% for category in site.data.services %}
+    <div class="service-category">
+      <h3>{{ category.heading }}</h3>
+      <div class="table-scroll">
+        <table class="service-items-table">
+          {% for item in category.items %}
+          <tr class="service-item-row">
+            <td class="service-col1">{{ item.label }}</td>
+            <td class="service-separator">|</td>
+            <td class="service-col2">{{ item.detail }}</td>
+          </tr>
+          {% if item.comment %}
+          <tr class="service-comment-row">
+            <td colspan="3" class="service-item-comment">
+              <span class="service-comment-bullet">&bull;</span>{{ item.comment }}
+            </td>
+          </tr>
+          {% endif %}
+          {% endfor %}
+        </table>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

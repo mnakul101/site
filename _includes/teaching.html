@@ -1,0 +1,36 @@
+<section id="teaching">
+  <div class="section-container reveal">
+    <h2 class="section-title">Teaching</h2>
+
+    {% for group in site.data.teaching %}
+    <div class="teaching-school-group">
+      <div class="teaching-school-name">{{ group.school }}</div>
+      <div class="teaching-school-location">{{ group.location }}</div>
+
+      {% for role in group.roles %}
+      <div class="teaching-experience">
+        <span class="teaching-title">{{ role.title }}</span>
+        <div class="table-scroll">
+          <table class="teaching-items-table">
+            {% for item in role.items %}
+            <tr class="teaching-item-row">
+              <td class="teaching-col1">{{ item.date }}</td>
+              <td class="teaching-separator">|</td>
+              <td class="teaching-col3">{{ item.course }}</td>
+            </tr>
+            {% if item.comment %}
+            <tr class="teaching-comment-row">
+              <td colspan="3" class="teaching-item-comment">
+                <span class="teaching-comment-bullet">&bull;</span>{{ item.comment }}
+              </td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+          </table>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+</section>
