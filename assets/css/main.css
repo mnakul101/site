@@ -281,14 +281,14 @@ nav {
     color: var(--primary-color);
 }
 
-.profile-affiliation:last-of-type {
-    margin-bottom: 1rem;
-}
-
 .social-links {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    /* Separates the icon row from the location line above it. Do not move this
+       to .profile-affiliation:last-of-type - p.profile-email is the last <p>
+       sibling, so that selector never matches. */
+    margin-top: 1.25rem;
     margin-bottom: 1rem;
     flex-wrap: wrap;
 }
