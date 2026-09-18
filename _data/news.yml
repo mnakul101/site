@@ -6,6 +6,12 @@
 #
 # Fields: date (shown in brackets), text (HTML allowed)
 
+- date: "2026-09"
+  text: >-
+    New preprint:
+    <strong><a href="https://arxiv.org/abs/2609.19529">Next-token functional estimation.
+
+
 - date: "2026-08"
   text: >-
     Wrapped up my summer as a <strong>PhD Research Intern</strong> at
