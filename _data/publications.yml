@@ -19,9 +19,6 @@ main:
     authors: <strong>Milind Nakul</strong>, Vidya Muthukumar, Ashwin Pananjady
     venue: "In preparation."
     year: 2026
-    links:
-      - name: arXiv
-        url: https://arxiv.org/abs/2609.19529
 
   - title: "Multiscale Replay: A Robust Algorithm for Stochastic Variational Inequalities with a Markovian Buffer"
     authors: <strong>Milind Nakul</strong>, Tianjiao Li, Ashwin Pananjady
