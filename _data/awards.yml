@@ -1,6 +1,15 @@
 # Awards, grouped by year (newest first).
 # Fields per item: title (HTML allowed), detail (optional, shown beneath)
 
+- year: "2026"
+  items:
+    - title: "<strong>Top Reviewer</strong>"
+      detail: "Awarded by NeurIPS 2026."
+    - title: "<strong>Best Poster Award</strong> <em>(Honorable Mention)</em>"
+      detail: "Awarded at Georgia Statistics Day."
+    - title: "<strong>Silver Reviewer</strong>"
+      detail: "Awarded by ICML 2026."
+
 - year: "2023&ndash;24"
   items:
     - title: "<strong>John Morris Fellowship</strong>"
